@@ -1,7 +1,6 @@
 import math
 
 def line():
-    print("TO DO")
     A = float(input("Ingrese el coeficiente A: "))
     B = float(input("Ingrese el coeficiente B: "))
     x1 = float(input("Ingrese el coeficiente x1: "))
@@ -25,5 +24,4 @@ def line():
     Distancia = math.sqrt((x2 - x1)**2 + (Y2 - Y1)**2)
     print(f"\nLa distancia entre ellos es: {Distancia}")
 
-line()
 
